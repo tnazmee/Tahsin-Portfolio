@@ -1,0 +1,203 @@
+/*------------*/
+/*-- Navbar --*/
+#Page-Title {
+    color: white;
+}
+
+.pos-f-t {
+    font-family: 'Audiowide', cursive !important;
+    background-color: black !important;
+}
+
+.p-4 {
+    width: 100%;
+    height: 120px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.Nav-Contact-Info {
+    width: 30%;
+    float: right;
+}
+
+.Nav-Contact-Info h5 {
+    width: 34%;
+    border-bottom: 1px solid white;
+}
+
+.Nav-Contact-Info p {
+    color: white;
+}
+
+.Nav-Contact-Info a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    background-color: black;
+}
+
+.fa-angle-double-up {
+    color: white !important;
+}
+
+/*-- Navbar --*/
+/*------------*/
+
+/*--------------*/
+/*-- Carousel --*/
+.Slide-Img1 {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.Slide-Img2 {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.Slide-Img3 {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.carousel-inner {
+    width: 100%;
+    max-height: 755px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    padding: 10%;
+}
+
+/*
+.Linear Gradient Background {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    animation: change 10s ease-in-out infinite;
+    background-size: 400% 400%;
+    z-index: 1;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+*/
+
+
+/*-- Carousel --*/
+/*--------------*/
+
+/*--------------*/
+/*-- About Me --*/
+.About-Me-Slide {
+    margin-bottom: 8%;
+}
+
+.About-Me-Slide2 {
+    margin-bottom: 32%;
+}
+
+.About-Card {
+    background: unset;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.About-Div {
+    margin-left: 5%;
+}
+
+#About-Title {
+    font-size: 60px;
+    font-family: 'Kalam', cursive;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fff;
+    color: #ffffff;
+}
+
+.About-Info {
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}
+
+/*-- About Me --*/
+/*--------------*/
+
+/*---------------*/
+/*-- Education --*/
+.ED-Container {
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+.ED-Card {
+    background: unset;
+    color: black;
+    border: none;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.ED-Div {
+    margin-left: 5%;
+}
+
+#ED-Title {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    color: black;
+    text-align: center;
+}
+
+.ED-Info {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+
+/*-- Education --*/
+/*---------------*/
+
+/*------------*/
+/*-- Footer --*/
+#Portfolio-Footer {
+    padding: 30px 0;
+    clear: both;
+    font-family: 'Audiowide', cursive;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background: black;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/*-- Footer --*/
+/*------------*/
