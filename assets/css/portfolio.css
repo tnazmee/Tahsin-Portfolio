@@ -1,44 +1,53 @@
 /*------------*/
 /*-- Navbar --*/
 #Page-Title {
-    color: white;
+    color: white !important;
+    font-size: 50px !important;
+    font-weight: bolder !important;
 }
 
 .pos-f-t {
-    font-family: 'Audiowide', cursive !important;
+    font-family: 'Julius Sans One', Sans-Serif !important;
     background-color: black !important;
 }
 
 .p-4 {
-    width: 100%;
-    height: 120px;
+    width: 100% !important;
+    height: 120px !important;
 }
 
 .navbar {
-    width: 100%;
+    width: 100% !important;
 }
 
 .Nav-Contact-Info {
-    width: 30%;
-    float: right;
+    width: 30% !important;
+    float: right !important;
 }
 
 .Nav-Contact-Info h5 {
-    width: 34%;
-    border-bottom: 1px solid white;
+    width: 34% !important;
+    border-bottom: 1px solid white !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    Font-Family: 'Monda', Sans-Serif !important;
 }
 
 .Nav-Contact-Info p {
-    color: white;
+    color: white !important;
+    font-size: 16px !important;
+    Font-Family: 'Monda', Sans-Serif !important;
 }
 
 .Nav-Contact-Info a {
-    color: white;
-    text-decoration: none;
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    Font-Family: 'Monda', Sans-Serif !important;
 }
 
 .navbar-toggler {
-    background-color: black;
+    background-color: black !important;
 }
 
 .fa-angle-double-up {
@@ -52,7 +61,7 @@
 /*-- Carousel --*/
 .Slide-Img1 {
     width: 100%;
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
 
 .Slide-Img2 {
@@ -66,8 +75,9 @@
 }
 
 .carousel-inner {
+    margin-top: 5%;
     width: 100%;
-    max-height: 755px !important;
+    max-height: 680px !important;
 }
 
 .carousel-control-prev-icon,
@@ -75,12 +85,16 @@
     padding: 10%;
 }
 
-/*
-.Linear Gradient Background {
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+/*-- Carousel --*/
+/*--------------*/
+
+/*--------------------------*/
+/*-- Animated/Overlay Backgrounds --*/
+.Linear-Gradient-BG {
+    background: linear-gradient(-45deg, rgb(238, 119, 82, .85), rgb(231, 60, 126, .85), rgb(35, 166, 213, .85), rgb(35, 213, 171, .85));
     animation: change 10s ease-in-out infinite;
     background-size: 400% 400%;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 @keyframes change {
@@ -96,20 +110,18 @@
         background-position: 0 50%;
     }
 }
-*/
 
-
-/*-- Carousel --*/
-/*--------------*/
+/*-- Animated Backgrounds --*/
+/*--------------------------*/
 
 /*--------------*/
 /*-- About Me --*/
 .About-Me-Slide {
-    margin-bottom: 8%;
+    margin-bottom: 18%;
 }
 
 .About-Me-Slide2 {
-    margin-bottom: 32%;
+    margin-bottom: 38%;
 }
 
 .About-Card {
@@ -123,8 +135,8 @@
 }
 
 #About-Title {
-    font-size: 60px;
-    font-family: 'Kalam', cursive;
+    font-size: 50px;
+    font-family: 'Julius Sans One', Sans-Serif;
     font-weight: bolder;
     text-transform: uppercase;
     padding-bottom: 10px;
@@ -134,8 +146,7 @@
 
 .About-Info {
     font-size: 30px;
-    font-family: 'Kalam', cursive;
-    font-weight: bold;
+    Font-Family: 'Monda', Sans-Serif;
 }
 
 /*-- About Me --*/
@@ -146,6 +157,7 @@
 .ED-Container {
     padding-top: 10px;
     width: 100%;
+    border-top: 2px solid black;
 }
 
 
@@ -154,7 +166,6 @@
     color: black;
     border: none;
     margin-top: 4%;
-    margin-bottom: 4%;
 }
 
 .ED-Div {
@@ -163,9 +174,8 @@
 
 #ED-Title {
     font-size: 60px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Julius Sans One', Sans-Serif;
     font-weight: bolder;
-    text-transform: uppercase;
     padding-bottom: 10px;
     border-bottom: 3px solid black;
     color: black;
@@ -173,22 +183,99 @@
 }
 
 .ED-Info {
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-family: 'Monda', Sans-Serif;
     padding-top: 20px;
     padding-bottom: 30px;
     border-bottom: 3px solid black;
+}
+
+.ED-Image div {
+    padding-bottom: none;
+}
+
+.ED-Image img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ED-Image p {
+    font-family: 'Monda', Sans-Serif;
+    width: 100%;
+    text-align: center;
 }
 
 /*-- Education --*/
 /*---------------*/
 
 /*------------*/
+/*-- GitHub --*/
+.GH-Title {
+    width: 100%;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-family: 'Julius Sans One', Sans-Serif;
+}
+
+.GH-Card {
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-image: url("../images/gh-cardbody.png");
+}
+
+.GH-Header {
+    padding-top: 40px;
+    border-bottom: 2px solid black;
+    font-family: 'Julius Sans One', Sans-Serif;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 30px;
+    /*
+    background-color: rgba(156, 149, 149, 0.404);
+    */
+}
+
+.GH-CardBody {
+    border-radius: 30px;
+    padding-bottom: 60px;
+    font-family: 'Monda', Sans-Serif;
+    font-size: 20px;
+}
+
+.GH-Code {
+    padding-top: 50px;
+}
+
+.GH-Website {
+    padding-top: 70px;
+    border-top: 1px solid grey;
+    width: 100%;
+}
+
+.GH-Card a {
+    text-decoration: none !important;
+    color: black;
+    padding-bottom: 40px;
+}
+
+
+
+/*-- GitHub --*/
+/*------------*/
+
+/*------------*/
 /*-- Footer --*/
 #Portfolio-Footer {
     padding: 30px 0;
     clear: both;
-    font-family: 'Audiowide', cursive;
+    font-family: 'Julius Sans One', Sans-Serif;
     font-size: 12px;
     color: #fff;
     text-align: center;
