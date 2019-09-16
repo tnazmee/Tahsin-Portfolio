@@ -254,6 +254,10 @@
     position: relative;
 }
 
+.GH-Row2 {
+    margin-top: 1%;
+}
+
 .GH-Title {
     width: 100%;
     font-size: 60px;
@@ -263,52 +267,77 @@
     font-family: 'Julius Sans One', Sans-Serif;
 }
 
-.GH-Card {
-    width: 100%;
-    text-align: center;
-    border-radius: 30px;
-    border: 2px solid black;
-    background-image: url("../images/gh-cardbody.png");
-}
-
-.GH-Header {
-    padding-top: 40px;
-    border-bottom: 2px solid black;
+.GH-Div {
+    padding-top: 27px;
+    border-bottom: 3px solid black;
     font-family: 'Julius Sans One', Sans-Serif;
     font-size: 25px;
     font-weight: bolder;
-    border-radius: 30px;
-    /*
-    background-color: rgba(156, 149, 149, 0.404);
-    */
-}
-
-.GH-CardBody {
-    border-radius: 30px;
-    padding-bottom: 60px;
-    font-family: 'Monda', Sans-Serif;
-    font-size: 20px;
 }
 
 .GH-Code {
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
-.GH-Website {
-    padding-top: 70px;
-    border-top: 1px solid grey;
-    width: 100%;
-}
-
-.GH-Card a {
-    text-decoration: none !important;
-    color: black;
+.GH-Code2 {
+    padding-top: 60px;
     padding-bottom: 40px;
 }
 
+.GH-Website {
+    padding-top: 60px;
+    border-top: 1px solid grey;
+}
 
+.GH-Code a,
+.GH-Code2 a,
+.GH-Website a {
+    text-decoration: none !important;
+    font-family: 'Monda', Sans-Serif;
+    font-size: 20px;
+    color: black;
+}
 
 /*-- GitHub --*/
+/*------------*/
+
+/*------------*/
+/*-- Swiper --*/
+.swiper-container {
+    width: 100%;
+    height: 510px;
+    margin: 20px auto;
+}
+
+.swiper-wrapper {
+    padding-top: 30px;
+}
+
+.swiper-slide {
+    text-align: center;
+    /* background: #fff; */
+    width: 200px !important;
+    height: 410px !important;
+    border-radius: 30px !important;
+    border: 3px solid black !important;
+    background-image: url("../images/gh-cardbody.png") !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/*-- Swiper --*/
 /*------------*/
 
 /*------------*/
