@@ -1,3 +1,4 @@
+// Swiper Handler
 var appendNumber = 4;
 var prependNumber = 1;
 var swiper = new Swiper('.swiper-container', {
@@ -35,3 +36,4 @@ document.querySelector('.append-2-slides').addEventListener('click', function (e
         '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
     ]);
 });
+// --------------------
