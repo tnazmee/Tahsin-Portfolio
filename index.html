@@ -45,15 +45,23 @@
     <div class="pos-f-t fixed-top">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="p-4">
-                <div class="Nav-Contact-Info">
-                    <h5 class="text-white">Contact Me:</h5>
-                    <p>Email: <a href="">tnazmee@yahoo.com</a></p>
-                    <p>Phone #: (734)589-9702</p>
+                <div class="Nav-Contact-Info d-inline-block">
+                    <h5>Contact Me:</h5>
+                    <div>Email: tnazmee@yahoo.com</div>
+                    <div>Phone #: (734) 589-9702</div>
+                </div>
+                <div class="Nav-FindMeOn-Info d-inline-block">
+                    <h5>Find Me On:</h5>
+                    <div><a href="https://www.linkedin.com/in/tahsin-nazmee-0808b7197/" class="hvr-forward">LinkedIn</a>
+                    </div>
+                    <div><a href="https://github.com/tnazmee" class="hvr-forward">GitHub</a></div>
                 </div>
             </div>
         </div>
         <nav class="navbar">
-            <h1 id="Page-Title">Tahsin Nazmee</h1>
+            <a href="#" class="Navbar-AboutMe hvr-grow">About Me</a>
+            <a href="#" class="Navbar-Projects hvr-grow">Projects</a>
+            <a href="#" class="Navbar-Contact hvr-grow">Form</a>
             <div class="navbar-toggler hvr-float hvr-icon-spin" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +69,18 @@
             </div>
         </nav>
     </div>
-    <!---- Carousel Section---->
+    <!-- Intro Section-->
+    <div class="container-fluid Intro-Container">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="Intro-Hello">Hello there, my name is Tahsin Nazmee</div>
+                <div class="Intro-What">What I do?</div>
+                <div class="Intro-Info">I am a Full-Stack Web Developer.</div>
+                <div class="Intro-Explore">Feel free to explore my portfolio :)</div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel Section -->
     <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -81,16 +100,14 @@
                                         <div class="col-11">
                                             <h1 id="About-Title">About Me</h1>
                                             <p class="About-Info">
-                                                Hello, I am Tahsin Nazmee. I'm 21 years old.
+                                                I am 21 years old.
                                                 I was born in Wayne, New Jersey. I am currently living in Cypress,
                                                 Texas.
                                                 I use
                                                 to live in Michigan for 15 years. Then I moved to Austin, Texas
                                                 during my sophomore year of high school. I have one little sister.
                                                 My parents are from Bangladesh. My dad is an electrical engineer
-                                                and my mom is a teacher at Montessouri. My career goal is to beccome
-                                                a software engineer.
-                                                <img src="assets\images\tahsin.png" alt="Tahsin Nazmee">
+                                                and my mom is a teacher at Montessouri.
                                             </p>
                                         </div>
                                     </div>
@@ -113,8 +130,7 @@
                                                 games, exploring
                                                 haunted houses & abandoned buildings, watching action/thriller shows,
                                                 working out
-                                                at the gym, and hanging out with
-                                                friends.
+                                                at the gym, hanging out with friends, and coding.
                                             </p>
                                         </div>
                                     </div>
@@ -148,42 +164,67 @@
             <div class="col-10">
                 <div class="card ED-Card">
                     <div class="card-body">
-                        <div class="row ED-Div">
+                        <!-- Front-End -->
+                        <div class="row justify-content-center">
                             <div class="col-11">
-                                <h1 id="ED-Title">Education</h1>
-                                <p class="ED-Info">
-                                    I first did my elementary and middle school in Canton, Michigan.
-                                    Also, I started my freshman year of high school in the same area.
-                                    Unfortunately, I had to move to Austin, Texas after I finished my
-                                    freshman year because of my dad's job. I had to finish up my high
-                                    school career at Vista Ridge High School. I gadruated at this
-                                    school in 2016 and earned my high school diploma. Now, I am
-                                    currently enrolled at University of Houston. My major is Computer
-                                    Science. My previous major was Biochemistry. The reason why I switched
-                                    out of this pre-med major because I don't like medical in general and
-                                    I do not want to be in school for 10 years. Thanks to one of my friends
-                                    that showed me coding. I never thought I would be so interested in this
-                                    field. Recently, I heard that UT-Austin was hosting a coding bootcamp class
-                                    in Houston. I got interested and took the course. This course changed my
-                                    life. It helped me learn a lot of new coding that I never have experience
-                                    on and I am enjoying all of the new coding.
-                                </p>
+                                <h2 id="ED-Title">Front-End</h2>
 
                                 <div class="row ED-Image">
-                                    <div class="col-4">
-                                        <img src="assets\images\ed-image1.png">
-                                        <br>
-                                        <p>High School Diploma</p>
+                                    <div class="col-3">
+                                        <img
+                                            src="https://www.wired.com/images_blogs/business/2011/08/HTML5_Logo_512.png">
                                     </div>
-                                    <div class="col-4">
-                                        <img src="assets\images\ed-image2.png">
-                                        <br>
-                                        <p>Computer Science</p>
+                                    <div class="col-3">
+                                        <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg">
                                     </div>
-                                    <div class="col-4">
-                                        <img src="assets\images\ed-image3.png">
-                                        <br>
-                                        <p>Coding Bootcamp</p>
+                                    <div class="col-3">
+                                        <img
+                                            src="https://wildcardcorp.com/image-repository/javascript-icon.png/@@images/image.png">
+                                    </div>
+                                    <div class="col-3">
+                                        <img
+                                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8XImA7fcTYFk81l7IUpQqnx9R3Ae1d_QLEkBgzhj0x1tP8e7H&s">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://blog.geekofia.in/assets/images/thumbnails/nodejs-logo.png">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://commons.bmstu.wiki/images/b/b8/Bootstrap.png">
+                                    </div>
+                                    <div class="col-3">
+                                        <img
+                                            src="https://camo.githubusercontent.com/226e0b50bb6083d78ceffd4d03be2ad4d49757b7/68747470733a2f2f6a6f6e617468616e6b61626c616e2e6769746875622e696f2f696d616765732f6d6174657269616c697a652e706e67">
+                                    </div>
+                                    <div class="col-3">
+                                        <img
+                                            src="https://openjsf.org/wp-content/uploads/sites/84/2019/10/jquery-logo-vertical_large_square.png">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://cdn.iconscout.com/icon/free/png-256/handlebars-3-1175025.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Back-End -->
+                        <div class="row justify-content-center">
+                            <div class="col-11">
+                                <h2 id="ED-Title">Back-End</h2>
+
+                                <div class="row ED-Image">
+                                    <div class="col-3">
+                                        <img
+                                            src="https://www.sohamkamani.com/static/65137ed3c844d05124dcfdab28263c21/6b427/express-routing-logo.png">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="http://kaptastech.com/wp-content/uploads/2017/02/mongodb-logo.png">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="https://seeklogo.net/wp-content/uploads/2012/03/mysql-vector1.jpg">
+                                    </div>
+                                    <div class="col-3">
+                                        <img
+                                            src="https://i2.wp.com/blog.js-republic.com/wp-content/uploads/2016/11/logo-redux.png?fit=500%2C500">
                                     </div>
                                 </div>
                             </div>
@@ -397,29 +438,34 @@
     <!---- Contact Section ---->
     <div class="container-fluid C-Container">
         <div class="container Contact-Container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="card Contact-Card">
                         <div class="card-body">
-                            <div class="row Contact-Div">
-                                <div class="col-11">
-                                    <h1 id="Contact-Title">Contact</h1>
+                            <div class="row justify-content-center">
+                                <div class="col-10 Contact-Div">
+                                    <h1 id="Contact-Title">Get In Touch</h1>
                                     <form id="Contact-Form" action="MAILTO:tnazmee@yahoo.com" method="post"
                                         enctype="text/plain">
-                                        <label for="name" class="Contact-Label">Name</label><br>
-                                        <input type="text" id="contact-name" name="name" placeholder="John Smith"
-                                            required="required" class="Contact-Input"><br>
-
-                                        <label for="email" class="Contact-Label">Email</label><br>
+                                        <label for="name" class="Contact-Label">Name</label>
+                                        <br>
+                                        <input type="text" id="contact-name" name="name" placeholder="First Name"
+                                            required="required" class="FirstName-Input">
+                                        <input type="text" id="contact-name" name="name" placeholder="Last Name"
+                                            required="required" class="LastName-Input">
+                                        <br>
+                                        <label for="email" class="Contact-Label">Email</label>
+                                        <br>
                                         <input type="email" id="contact-email" name="email"
-                                            placeholder="example@gmail.com" required="required"
-                                            class="Contact-Input"><br>
-
-                                        <label for="message" class="Contact-Label">Message</label><br>
-                                        <textarea type="text" id="contact-message" name="message" required="required"
-                                            class="Contact-Textarea"></textarea><br>
-
-                                        <input type="submit" value="Send" class="Contact-Btn hvr-float-shadow"
+                                            placeholder="example@gmail.com" required="required" class="Email-Input">
+                                        <br>
+                                        <label for="message" class="Contact-Label">What can I do for you?</label>
+                                        <br>
+                                        <textarea type="text" id="contact-message" name="message"
+                                            placeholder="Message..." required="required"
+                                            class="Message-Textarea"></textarea>
+                                        <br>
+                                        <input type="submit" value="Send" class="Submit-Btn hvr-float-shadow"
                                             id="submit-btn">
                                     </form>
 
@@ -445,6 +491,7 @@
 
     <!-- My Javascript Link -->
     <script src="assets\javascript\portfolio.js"></script>
+    <script src="assets\javascript\navigate.js"></script>
 
 </body>
 

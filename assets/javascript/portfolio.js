@@ -36,4 +36,3 @@ document.querySelector('.append-2-slides').addEventListener('click', function (e
         '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
     ]);
 });
-// --------------------
